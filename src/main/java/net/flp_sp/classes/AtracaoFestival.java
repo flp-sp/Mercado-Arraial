@@ -36,4 +36,14 @@ public class AtracaoFestival {
     public double calcularReceita(){
         return valorIngresso * ingressosVendidos;
     }
+
+
+    public String getNome(){
+        return this.nome;
+    }
+
+
+    public String getHora(){
+        return this.hora;
+    }
 }
