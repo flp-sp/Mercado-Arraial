@@ -33,7 +33,7 @@ public class ProgramacaoArraia {
         if (this.atracoes.length > 0){
             for (int i = 0; i < quantidadeAtual; i++){
                 AtracaoFestival atracao = this.atracoes[i];
-                if (atracao.getNome() == nome){
+                if (atracao.getNome().equals(nome)){
                     return atracao; 
                 }
             }

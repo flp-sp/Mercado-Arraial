@@ -7,8 +7,8 @@ public class Ingresso {
     private static int contadorGeral;
 
 
-    public Ingresso(String nomeAtracao, double valorPago) {
-        contadorGeral++;
+    public Ingresso(String nomeAtracao, double valorPago, int amount) {
+        contadorGeral += amount;
         this.nomeAtracao = nomeAtracao;
         this.valorPago = valorPago;
     }

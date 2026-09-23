@@ -27,6 +27,11 @@ public class AtracaoFestival {
         return false;
     }
 
+
+    public double getValorPago(int quantidade){
+        return this.valorIngresso * quantidade;
+    }
+
     // Retorna a quantidade de ingressos disponiveis
     public int getIngressosDisponiveis(){
         return capacidadePublico - ingressosVendidos;
